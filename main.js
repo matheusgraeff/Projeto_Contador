@@ -41,7 +41,7 @@ if(tempoFinal > 0){
 }
 function atualizarCronometro(){
     for(let i=0; i < contadores.length; i++){
-        contadores[i].textContent = calculaTempo(tempos[i]);
+        contadores[i].innerHTML = calculaTempo(tempos[i]);
     }
 }
 
